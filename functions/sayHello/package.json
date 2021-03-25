@@ -1,0 +1,19 @@
+{
+  "name": "say-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "functions-framework --target=sayHello",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
